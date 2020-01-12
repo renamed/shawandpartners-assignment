@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/renamed/shawandpartners-assignment#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.17",
+    "node-fetch": "^2.6.0"
   }
 }
