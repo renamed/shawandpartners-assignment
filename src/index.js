@@ -26,6 +26,8 @@ let options = {
 };
 expressSwagger(options);
 
-app.listen(process.env.PORT, function () {
-    console.log(`I can listen to you on port ${process.env.PORT}`);
+const server = app.listen(process.env.PORT || 5000, function () {
+    console.log(`I can listen to you on port ${process.env.PORT || 5000}`);
 });
+
+module.exports = { app, server }

@@ -1,5 +1,5 @@
 const { ok, badRequest, internalServerError } = require("./response")
-const userServices = require("../services/userServices")
+const userServices = require("../config/dependencies")("userService")
 
 /**
  * @typedef ErrorModel

@@ -4,7 +4,7 @@
   "description": "shawandpartners-assignment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "env TEST=true mocha tests/index.js "
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
     "express": "^4.17.1",
     "express-swagger-generator": "^1.1.17",
     "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "supertest": "^4.0.2"
   }
 }

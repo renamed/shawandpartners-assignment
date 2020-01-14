@@ -1,4 +1,4 @@
-const userRepository = require("../externalServices/userRepository")
+const userRepository = require("../config/dependencies")("userRepository")
 
 async function getAllUsers(since) {
     if (since < 0) {
