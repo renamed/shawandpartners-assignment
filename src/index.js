@@ -19,7 +19,7 @@ let options = {
         produces: [
             "application/json"
         ],
-        schemes: ['http', 'https']
+        schemes: ['https', 'http']
     },
     basedir: __dirname, //app absolute path
     files: ['./controllers/*Controller.js'] //Path to the API handle folder
