@@ -12,7 +12,7 @@ app.get("/api/users/:username/repos", usersController.getRepos);
 let options = {
     swaggerDefinition: {
         info: {
-            description: 'Shawand Partners assignment',
+            description: 'Shaw and Partners assignment',
             title: 'Shawand Partners',
             version: '1.0.0',
         },

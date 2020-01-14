@@ -1,4 +1,4 @@
-## Shawn and Patterns
+## Shawn and Partners
 
 ###How to run this code
 There is a live demo for this code running on Heroku. You can find the swagger at https://shawandpartners-assignment.herokuapp.com/api-docs. 
